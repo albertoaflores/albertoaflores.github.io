@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "A New Hope"
+author: alberto
 date:   2020-06-15 10:05:54 -0400
 categories: personal
 ---
