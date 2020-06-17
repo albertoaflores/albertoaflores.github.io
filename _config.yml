@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   using Cloud-Native patterns, Big Data solutions and Open Source (OSS).
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-remote_theme: thelehhman/plainwhite-jekyll
+remote_theme: albertoaflores/plainwhite-jekyll
 
 # Theme Info: https://github.com/thelehhman/plainwhite-jekyll
 theme: plainwhite
