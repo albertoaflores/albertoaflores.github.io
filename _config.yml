@@ -4,10 +4,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   using Cloud-Native patterns, Big Data solutions and Open Source (OSS).
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-remote_theme: albertoaflores/plainwhite-jekyll
+#remote_theme: albertoaflores/plainwhite-jekyll
 
 # Theme Info: https://github.com/thelehhman/plainwhite-jekyll
-theme: plainwhite
+#theme: plainwhite
 
 plainwhite:
   name: Alberto A. Flores
@@ -32,6 +32,28 @@ plainwhite:
 
 #Enable excerpts in blog entries
 show_excerpts: true
+
+markdown: kramdown
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input: GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 
 plugins:
   - jekyll-feed
