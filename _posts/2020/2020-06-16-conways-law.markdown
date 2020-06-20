@@ -29,6 +29,8 @@ $$ Average Lead Time = \frac{ Average Work in Progress}{Average Throughput}$$
 
 In this context, "Lead Time" is the time for things to get done. Little's law helps us measure how the amount of time it takes to complete tasks (e.g. stories, features, etc) is directly proportional to the number of "things" we are working on. One can only conclude that for teams to get done faster, they need to commit to work on fewer things. This suggests an intrinsic need to prioritize "acceptance" criterias to determine MTP (Minimum Testable Product) so that we can start to learn quickly.
 
+![Limit The Work](/assets/img/2020/visualize-work-and-limit-it.png#imageInPost "Limit The work")
+
 ## What about the Tools?
 One of my favorite quotes from Steve Jobs is:
 
