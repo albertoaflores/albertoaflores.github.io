@@ -172,6 +172,19 @@ main {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
 }
+
+blockquote {
+  font-style: italic;
+}
+
+.footnotes {
+  font-size: 10px;
+  line-height: normal;
+  ol {
+    padding-inline-start: 20px;
+  }
+}
+
 .post-tags {
   list-style-type: none;
   margin: 0;

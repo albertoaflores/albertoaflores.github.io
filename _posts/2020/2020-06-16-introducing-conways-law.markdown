@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Conway's Law"
+title:  "Introducing Conway's Law"
 author: alberto
 date:   2020-06-16 10:20:32 -0400
 categories: transformation
+tags:
+- engineering culture
+- microservices
+- lead time
 excerpt: Digital transformation is not just about the tech. It's about people, process and tools (in that order). As many industries continue their transformation journey, some core principles are arising. In 1967, Melvin Conway introduce a concept that is now known as "Conway's Law". It is very commonly used to describe how systems are designed and how teams are limited by different factors.  In this post, we describe some of these.
 ---
 Software development is both an "art" and a "science". One has to recognize when both are needed. Too much "art", and you miss the "engineering" piece of it. Too much science, and you lose the intrinsic elements of the experience, such as "culture" and "outcome focus". In fact, the so call "Digital Transformation" wave is all about finding a balance between these two. One of the elements of the intersection of "art" and "science" is explained in Conway's law:

@@ -11,7 +11,7 @@ layout: default
     {%- if page.categories.size > 0 -%}
     <ul class="post-categories">
       {%- for category in page.categories -%}
-      <li>{{ category }}</li>
+      <li>{{ category | downcase }}</li>
       {%- endfor -%}
     </ul>
     {%- endif -%}
@@ -20,7 +20,7 @@ layout: default
     <div class="post-meta">
       <ul class="post-tags">
         {%- for tag in page.tags -%}
-        <li>{{ tag }}</li>
+        <li>{{ tag | downcase }}</li>
         {%- endfor -%}
       </ul>
     </div>
