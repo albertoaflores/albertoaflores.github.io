@@ -5,7 +5,7 @@ date: '2019-12-03 12:29:00 -04:00'
 author: alberto
 categories: Development
 tags:
-- Spring
+- spring
 ---
 Over the years, Spring has made a number of enhancements to improve the developer UX. I realize some of these can be too trivial to notice. Today, I present one enhancement that, while minor, may save some from undesirable behavior. This is available since the 4.3 Spring release and it's called "Implicit Construction Injection".
 

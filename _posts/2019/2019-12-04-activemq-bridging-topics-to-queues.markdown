@@ -5,9 +5,9 @@ date: '2019-12-04 18:51:00 -04:00'
 author: alberto
 categories: Development
 tags:
-- JMS
-- Messaging
-- ActiveMQ
+- jms
+- messaging
+- activeMQ
 excerpt: Topics and Queues are powerful components in a messaging infrastructure. There are times when you need to create a convention where producers always publish to topics and consumers always read from Queues while letting the message broker control the "message forwarding". This article describes how to configure such a setup with ActiveMQ.
 ---
 

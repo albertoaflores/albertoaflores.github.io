@@ -3,11 +3,11 @@ layout: post
 title: Lessons Learned using Togglz
 date: '2019-12-02 17:35:00 -05:00'
 author: alberto
-categories: development
+categories: Development
 tags:
-- Togglz
-- Spring-Boot
-- Spring
+- togglz
+- spring-Boot
+- spring
 ---
 
 Feature Toggles (a.k.a. Feature Flags) are a common way to test new features in a production environment. I started to experiment with <a href="https://www.togglz.org/documentation/spring-boot-starter.html" target="_blank">Togglz</a> as a OSS library to implement what I needed. For the purpose of my description, I used Spring Boot as it makes apps development simpler. Here are my findings:
