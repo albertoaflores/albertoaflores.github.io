@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Spring: Implicit Construction Injection'
-date: '2019-12-03T12:29:00.000-05:00'
+date: '2019-12-03 12:29:00 -04:00'
 author: alberto
 categories: Development
 tags:

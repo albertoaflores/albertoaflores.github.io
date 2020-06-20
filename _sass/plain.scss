@@ -23,6 +23,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+// All images in a post will be centered and with rounded corners
+img[src$="#imageInPost"] {
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img,
 embed,
 object,
@@ -253,6 +262,10 @@ main {
   display: flex;
   align-items: baseline;
   border-bottom: 1px solid #eee;
+}
+
+.posts-home-summary {
+  margin: 0 0 2em 0;
 }
 
 #posts-label {
