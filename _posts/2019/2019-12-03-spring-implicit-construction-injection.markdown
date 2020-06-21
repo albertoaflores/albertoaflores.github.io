@@ -7,7 +7,7 @@ categories: Development
 tags:
 - spring
 ---
-Over the years, Spring has made a number of enhancements to improve the developer UX. I realize some of these can be too trivial to notice. Today, I present one enhancement that, while minor, may save some from undesirable behavior. This is available since the 4.3 Spring release and it's called "Implicit Construction Injection".
+Over the years, Spring has made a number of enhancements to improve the developer UX. I realize some of these can be too trivial to notice. Today, I present one enhancement that, while minor, may save some from undesirable behavior. This is available since the 4.3 Spring release and it's called "_Implicit Construction Injection_".
 
 As you know, constructor injection is a preferred pattern to add code to your dependency definition. For example, we can do the following:
 

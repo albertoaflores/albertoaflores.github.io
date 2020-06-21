@@ -14,7 +14,7 @@ Most recently, I found the following error during a git operation:
   fatal: refusing to merge unrelated histories
 {% endhighlight %}
 
-which led me to a hunt. I found out that since version 2.9.0, git has removed the ability to merge branches with unrelated histories (thanks for the obvious message Git). This change (and many others) can be found <a href="https://github.com/git/git/blob/master/Documentation/RelNotes/2.9.0.txt#L58-L68" target="_blank">here</a>.
+which led me to a hunt. I found out that since version 2.9.0, git has removed the ability to merge branches with unrelated histories (kudos to the git developers for the obvious message!). This change (and many others) can be found <a href="https://github.com/git/git/blob/master/Documentation/RelNotes/2.9.0.txt#L58-L68" target="_blank">here</a>.
 
 The fix (for me) was found in doing the following:
 

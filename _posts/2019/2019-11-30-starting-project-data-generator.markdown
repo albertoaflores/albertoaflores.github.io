@@ -9,7 +9,7 @@ tags:
 - spring-Boot
 - spring
 - testing
-excerpt: Data generators are an essential part of the "Digital Twin" strategy. This has always been a part of every problem domain&#58; We need to create data that reflects production behavior, and we need to be able to reproduce a behavior that happen in the past. Notice that this is not just about data generation, but data simulation. This entry is about some initial thoughts on this topic.
+excerpt: Data generators are an essential part of a "Digital Twin" strategy. This has always been a part of every problem domain&#58; We need to create data that reflects production behavior, and we need to be able to reproduce a behavior that happens in the past. Notice that this is not just about data generation, but data simulation. This entry is about some initial thoughts on this topic.
 ---
 
 Sometimes, there is a need to generate data to test your code. While "<a href="https://martinfowler.com/articles/qa-in-production.html" target="_blank">testing in production</a>" is a sweet spot to be, there are times when you need to "force" (stub) data that reflects certain business phenomena in production.
