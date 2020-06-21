@@ -185,6 +185,13 @@ blockquote {
   }
 }
 
+.post-draft {
+  li {
+    background-color: #158606;
+    color: #fff;
+  }
+}
+
 .post-tags {
   list-style-type: none;
   margin: 0;
@@ -192,7 +199,6 @@ blockquote {
   li {
     font-size: 10px;
     float: left;
-    //background-color: #5b5b5e;
     background-color: #80f175;
     color: #000;
     padding: 0px 5px;
@@ -217,6 +223,11 @@ blockquote {
       margin-top: 5px;
     }
     margin-right: 10px;
+  }
+  li.post-draft {
+    background-color: #fc8585;
+    color: #000;
+    font-weight: bold;
   }
 }
 .post-date {

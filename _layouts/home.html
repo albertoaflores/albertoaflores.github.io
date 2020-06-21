@@ -36,6 +36,10 @@ layout: default
           </div>
           {%- if post.categories.size > 0-%}
           <ul class="post-categories">
+            {%- if post.draft -%}
+              <li class="post-draft">Draft</li>
+            {%- endif -%}
+
             {%- for category in post.categories -%}
             <li>{{ category | downcase }}</li>
             {%- endfor -%}
