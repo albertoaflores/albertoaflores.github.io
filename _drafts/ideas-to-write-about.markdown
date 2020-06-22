@@ -19,6 +19,7 @@ excerpt: Sample ideas of everything I have to write about
 * The resource utilization trap, Conway and Dunbar [^5] [^6]
 * Cross-functional teams [^7]
 * Teams as Product (Teams as complex system) [^8]
+* ITIL & DevOps - Implementing ITSM - Incident and Problem Management [^9] [^10] [^11]
 
 ## Law of Propinquity:
 > "The probability of two people communicating is inversely proportional to the distance between them".
@@ -35,5 +36,6 @@ excerpt: Sample ideas of everything I have to write about
 [^6]: [https://www.youtube.com/watch?v=CostXs2p6r0](https://www.youtube.com/watch?v=CostXs2p6r0)
 [^7]: [https://tisquirrel.me/2015/02/06/cross-functional-teams-changing-the-managers-mindset/](https://tisquirrel.me/2015/02/06/cross-functional-teams-changing-the-managers-mindset/)
 [^8]: [https://www.business2community.com/leadership/build-great-team-look-big-picture-01610221](https://www.business2community.com/leadership/build-great-team-look-big-picture-01610221)
-
-
+[^9]: [https://www.atlassian.com/incident-management/devops/incident-vs-problem-management](https://www.atlassian.com/incident-management/devops/incident-vs-problem-management)
+[^10]: [https://www.objectgears.eu/incident-and-problem-management](https://www.objectgears.eu/incident-and-problem-management)
+[^11]: [https://freshservice.com/itsm/4-techniques-for-an-effective-problem-management-blog/](https://freshservice.com/itsm/4-techniques-for-an-effective-problem-management-blog/)

@@ -10,6 +10,10 @@ layout: default
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: date_format }}</div>
     {%- if page.categories.size > 0 -%}
     <ul class="post-categories">
+      {%- if page.draft -%}
+        <li class="post-draft">Draft</li>
+      {%- endif -%}
+
       {%- for category in page.categories -%}
       <li>{{ category | downcase }}</li>
       {%- endfor -%}
