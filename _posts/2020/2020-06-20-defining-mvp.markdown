@@ -7,7 +7,7 @@ categories: Transformation
 tags:
 - Agile
 - Discovery
-- UX
+- MVP
 - Requirements
 ---
 
