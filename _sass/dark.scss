@@ -53,6 +53,17 @@
 		}
 	}
 
+	.pagination {
+		a.numberCircle {
+			color: #666;
+			text-align: center;
+		}
+		em {
+			color: #fff;
+			background-color: #158606;
+		}
+	}
+
 	a {
 		color: $dark_link_color;
 	}
