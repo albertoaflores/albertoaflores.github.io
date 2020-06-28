@@ -140,41 +140,38 @@ main {
 
 .pagination {
   margin-top: 20px;
-
   font: 8px Arial, sans-serif;
+
   a {
     text-decoration: none;
-    margin: 2px;
   }
   a.numberCircle {
+    background: #e3e3e3;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-
-    width: 36px;
-    height: 36px;
-    padding: 6px;
-
+    color: #6e6e6e;
+    display: inline-block;
     font-weight: bold;
-    background: #fff;
-    border: 0.5px solid #aaa;
-    color: #666;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
     text-align: center;
+    width: 20px;
   }
   em {
+    background: #80f175;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-
-    width: 36px;
-    height: 36px;
-    padding: 6px;
-
+    color: #6e6e6e;
+    display: inline-block;
     font-weight: bold;
-    background: #80f175;
-    border: 0.5px solid #aaa;
-    color: #666;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
     text-align: center;
+    width: 20px;
   }
 }
 

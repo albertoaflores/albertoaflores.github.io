@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ideas to write about'
+title: 'Ideas about transformation'
 date: '2020-06-20 10:00:00 -04:00'
 author: alberto
 categories: All
@@ -12,6 +12,7 @@ tags:
 excerpt: Sample ideas of everything I have to write about
 ---
 
+# Transformation
 * 20 things I wish I had known about Lean-Agile delivery when I started.[^1]
 * Discovery & Framing as parallel activities [^2]
 * How to split a user story [^3]
@@ -20,6 +21,7 @@ excerpt: Sample ideas of everything I have to write about
 * Cross-functional teams [^7]
 * Teams as Product (Teams as complex system) [^8]
 * ITIL & DevOps - Implementing ITSM - Incident and Problem Management [^9] [^10] [^11]
+
 
 ## Law of Propinquity:
 > "The probability of two people communicating is inversely proportional to the distance between them".
