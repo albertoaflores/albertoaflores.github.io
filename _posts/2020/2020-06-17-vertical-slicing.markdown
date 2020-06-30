@@ -58,7 +58,7 @@ The concept of _Vertical Slicing_ is very simple: In order to build software, we
 Teams working with "Vertical slicing" must also practice the following habits:
 
 * Include value description explicitly in backlog.
-* Have more conversation about value (emphaty).
+* Have more conversation about value (empathy).
 * Try not to accidentally build low-value changes.
 * Look for feedback early in the process.
 * Become predictable in delivering value.
