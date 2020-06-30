@@ -1,0 +1,15 @@
+---
+layout: post
+title: REST Endpoint returning 404 without Exceptions
+date: '2017-03-04T06:34:00.001-05:00'
+author: Alberto
+tags:
+- Exceptions
+- REST
+- Spring-Boot
+modified_time: '2017-03-04T06:34:40.618-05:00'
+blogger_id: tag:blogger.com,1999:blog-4831432806087932521.post-937840161779530749
+blogger_orig_url: https://alberto-flores.blogspot.com/2017/03/rest-endpoint-returning-404-without.html
+---
+
+At some point in your REST endpoint design, you will need to return a non 200 response. Now, most implementations show how to implement this using exceptions. While this may seem like a nice approach (from a programming language point of view), exceptions can add <a href="https://shipilev.net/blog/2014/exceptional-performance/" target="_blank">overhead</a> to the running JVM. This translates to ineffective use of resources of the JVM for supporting non 200 responses.<br /><br />Here is a <a href="https://gist.github.com/albertoaflores/3bc4706e97c158e91117cef7ee13d9fe" target="_blank">gist</a> where you don't use exceptions to return non 200 responses:<br /><br /><script src="https://gist.github.com/albertoaflores/3bc4706e97c158e91117cef7ee13d9fe.js"></script> <br />A few things to note from this snippet:<br /><ol><li>This is a Spring Boot implementation (Boot makes things so much simple)</li><li>The&nbsp;<span style="font-family: &quot;monaco&quot;; font-size: 11px;">HttpServletResponse</span>&nbsp;is injected by Boot (Spring MVC), no need of additional setup.</li><li>Notice that the body return is null already, so the non 200 response makes more sense.</li></ol>Please note that this is an implementation specific construct to support non 200 responses. Jersey and others also provide a non exceptional way to handle this scenario. Semantics of what the endpoint does (nouns non verbs, <a href="http://whatisrest.com/rest_constraints/uniform_contract_profile" target="_blank">uniform contracts</a>, <a href="http://whatisrest.com/rest_constraints/interface_uniform_contract" target="_blank">interfaces</a>, etc) are not part of the discussion. This is strictly an implementation description meant to support the abstraction defined by the given REST endpoint.<br /><br />

@@ -19,8 +19,11 @@ excerpt: The narrative of "People, Process and Tools" is at the core of the ever
 # Categories
 * development
 * testing
+
+## tags
 * platform
 * architecture
+* cloud-native
 
 # Topics
 * Opinionated Frameworks [^4]
