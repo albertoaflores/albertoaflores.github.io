@@ -54,7 +54,7 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-paginate: 5
+paginate: 10
 
 plugins:
   - jekyll-feed
