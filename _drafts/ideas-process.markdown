@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Ideas about transformation'
-date: '2020-06-20 10:00:00 -04:00'
+date: '2020-06-30 10:00:00 -04:00'
 author: alberto
 categories: All
 tags:
