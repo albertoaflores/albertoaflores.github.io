@@ -8,11 +8,12 @@ tags:
 - testing
 - bdd
 - lean
-excerpt: The narrative of "People, Process and Tools" is at the core of the every transformation journey. In my experience, it is very easy to put the tech (tools) first. We have to understand that ordering is important. Here are a few thoughts about selecting tools that support the needed transformation.
+excerpt: Using a "test-first" approach to software development.
 ---
 
 
 
+## Test-Driven Development (TDD)
 
 
 Investment in BDD
