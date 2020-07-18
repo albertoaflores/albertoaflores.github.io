@@ -16,6 +16,7 @@ plainwhite:
   dark_mode: true
   search: true
   sitemap: true
+  #disqus_shortname: albertoaflores
   navigation:
     - title: Homework
       url: "/homework"
