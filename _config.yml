@@ -18,6 +18,8 @@ plainwhite:
   sitemap: true
   #disqus_shortname: albertoaflores
   navigation:
+    - title: Books
+      url: "/books"
     - title: Homework
       url: "/homework"
     - title: About me
