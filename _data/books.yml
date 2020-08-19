@@ -1,4 +1,15 @@
 
+- title: Sprint
+  subtitle: How to Solve Big Problem and Test New Ideas in Just Five Days
+  author: Jane Knapp & John Zeratsky
+  notes: "Every organization looks to implement Agile, however the great majority fails.
+  If you are not delivering software every week, you are not going fast enough. If you want
+  too much control, you are going slow. What is the right balance? This book describes the
+  right habits that enables teams to stay focused in the outcomes"
+  thumbnail: /assets/img/books/sprint.jpg
+  tags:
+    - Available in Audible
+
 - title: Team Topologies
   subtitle: Organizing Business And Technology teams for fast flow
   author: Matthew Skelton & Manuel Pais
