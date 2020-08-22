@@ -7,12 +7,16 @@ categories: transformation
 tags:
 - teams
 - lean
-excerpt: My notes from the book "Team Topologies"
+excerpt: 'My notes from my reading on the book "Team Topologies". This books provides an excellent summary of how I have been organizing teams in recent years. From Spotify, to Pivotal and other great teams, this book has great content that will allow teams that need to
+scale organizations to perform at high levels.'
 ---
 
+It's been a while since I've written about a book that describes a lot of my current thinking in terms of organizing "high performing" teams. Team Topologies
 
 
 ## Reverse Conway
+I already discussed about how the effects of Conway's Law is inevitable, but can we
+
 James Lewis (Thoughtworks) whereby an organization focuses on organizing team structures to match the architecture they want the system to exhibit, rather than expecting teams to follow a mandated architectural design
 
 Thinking of software architecture as a standalone concept that can be designed in isolation and then implemented by multiple teams is fundamentally wrong.
