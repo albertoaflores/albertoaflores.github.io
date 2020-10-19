@@ -11,7 +11,7 @@ This is my recommended list of books to read:
   <hr>
   <div class="book-summary">
     <div class="image-thumbnail">
-      <img src="{{ book.thumbnail }}" />
+      <img src="{{ book.thumbnail | relative_url }}" />
     </div>
     <div class="book-info">
       <h2>{{ book.title }}</h2>

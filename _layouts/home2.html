@@ -76,7 +76,7 @@ layout: default
           {% if page == paginator.page %}
             <em>{{ page }}</em>
           {% elsif page == 1 %}
-            <a class="numberCircle" href="/">{{ page }}</a>
+            <a class="numberCircle" href="{{ "/" | relative_url }}">{{ page }}</a>
           {% else %}
             <a class="numberCircle" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
           {% endif %}
