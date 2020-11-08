@@ -16,7 +16,8 @@ plainwhite:
   dark_mode: true
   search: true
   sitemap: true
-  #disqus_shortname: albertoaflores
+  disqus_shortname: albertoaflores
+  analytics_id: G-G97T1XC1WE
   navigation:
     - title: Books
       url: "/books"
