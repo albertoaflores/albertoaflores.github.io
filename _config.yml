@@ -11,7 +11,7 @@ url: "https://albertoaflores.github.io" # the base hostname & protocol for your 
 
 plainwhite:
   name: Alberto A. Flores
-  tagline: Sr. Systems Architect
+  tagline: Sr. Software Engineer
   date_format: "%b %-d, %Y"
   dark_mode: true
   search: true
@@ -74,7 +74,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
