@@ -9,3 +9,11 @@ Running the following:
 bundle exec jekyll serve
 ```
 Runs Jekyll locally with our server running on port localhost:4000
+
+### Updating
+Since we are (ideally) using bundler, we can run the following:
+
+```bash
+bundle update
+```
+This should update the `Gemfile.lock` which contains all dependency versions.
