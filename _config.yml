@@ -19,8 +19,12 @@ plainwhite:
   disqus_shortname: albertoaflores
   analytics_id: G-G97T1XC1WE
   navigation:
-    - title: Books
-      url: "/books"
+    - title: Home
+      url: "/"
+    - title: Categories
+      url: "/categories"
+    - title: Reading
+      url: "/reading"
     - title: Homework
       url: "/homework"
     - title: About me

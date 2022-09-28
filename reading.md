@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Books
-permalink: /books/
+title: Reading
+permalink: /reading/
 ---
 
 This is my recommended list of books to read:
