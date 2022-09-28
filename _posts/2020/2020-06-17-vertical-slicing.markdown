@@ -3,7 +3,7 @@ layout: post
 title: 'Vertical Slicing'
 date: '2020-06-17 10:00:00 -04:00'
 author: alberto
-categories: Transformation
+categories: Management
 tags:
 - Agile
 - Discovery

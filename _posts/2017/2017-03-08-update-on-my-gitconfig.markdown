@@ -3,7 +3,7 @@ layout: post
 title: Update on my .gitconfig
 date: '2017-03-08T06:40:00 -05:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Git
 

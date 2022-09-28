@@ -3,7 +3,7 @@ layout: post
 title: 'Tools Transformation'
 date: '2020-06-30 10:00:00 -04:00'
 author: alberto
-categories: Transformation
+categories: Development
 tags:
 - Kubernetes
 - Cloud-Native

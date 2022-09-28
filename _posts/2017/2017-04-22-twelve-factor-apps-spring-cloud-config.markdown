@@ -3,7 +3,7 @@ layout: post
 title: 'Twelve Factor Apps: Spring Cloud Config'
 date: '2017-04-22T11:16:00 -04:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Spring-Cloud-Config
 - Spring-Boot

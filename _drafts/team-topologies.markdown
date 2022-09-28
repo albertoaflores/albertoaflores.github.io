@@ -3,7 +3,7 @@ layout: post
 title: 'Team Topologies'
 date: '2020-07-18 13:00:00 -04:00'
 author: alberto
-categories: transformation
+categories: Management
 tags:
 - teams
 - lean

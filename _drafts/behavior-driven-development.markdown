@@ -3,7 +3,7 @@ layout: post
 title: 'Behavior Driven Development'
 date: '2020-07-11 13:00:00 -04:00'
 author: alberto
-categories: testing
+categories: Development
 tags:
 - testing
 - bdd

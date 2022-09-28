@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot and CloudFoundry
 date: '2015-03-24T23:20:00.003-04:00'
 author: alberto
+categories: Development
 tags:
 - CloudFoundry
 - Spring-Boot

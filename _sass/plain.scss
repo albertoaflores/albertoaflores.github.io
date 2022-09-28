@@ -106,8 +106,9 @@ main {
       font-weight: normal;
     }
     .tagline {
-      font-size: 22px;
-      margin-top: 17px;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 10px;
       color: #aaa;
       white-space: pre-wrap;
       line-height: normal;
@@ -192,7 +193,6 @@ main {
 
     a {
       display: block;
-      font-family: 'Merriweather';
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;

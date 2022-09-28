@@ -3,7 +3,7 @@ layout: post
 title: Deploying Ozone on CloudFoundry
 date: '2015-03-30T16:34:00.003-04:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - CloudFoundry
 - OWF

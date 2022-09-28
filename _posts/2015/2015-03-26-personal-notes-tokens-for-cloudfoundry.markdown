@@ -3,6 +3,7 @@ layout: post
 title: 'Personal Notes: Tokens for the CloudFoundry API'
 date: '2015-03-26T06:00:00.000-04:00'
 author: alberto
+categories: Development
 tags:
 - BOSH
 - CloudFoundry

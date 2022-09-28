@@ -3,7 +3,7 @@ layout: post
 title: 'Vagrant Script: BOSH CLI environment'
 date: '2015-03-27T09:00:00.000-04:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - BOSH
 - Vagrant

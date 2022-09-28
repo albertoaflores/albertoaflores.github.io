@@ -3,7 +3,7 @@ layout: post
 title: 'Ideas People'
 date: '2020-06-30 10:00:00 -04:00'
 author: alberto
-categories: All
+categories: Management
 tags:
 - People
 excerpt: Sample ideas of everything I have to write about modernization focused on people

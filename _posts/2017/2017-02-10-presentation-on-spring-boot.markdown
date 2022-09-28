@@ -3,7 +3,7 @@ layout: post
 title: Presentation on Spring Boot
 date: '2017-02-10T16:31:00 -05:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Spring-Boot
 - Spring

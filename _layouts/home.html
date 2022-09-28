@@ -23,7 +23,7 @@ layout: default
       {% endif %}
     </li>
 
-    {%- for post in site.posts -%}
+    {%- for post in paginator.posts -%}
       <li class="posts-home-summary">
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
@@ -64,9 +64,30 @@ layout: default
         </div>
       </li>
     {%- endfor -%}
+
+    <li class="posts-labelgroupBottom">
+      {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <em>{{ page }}</em>
+          {% elsif page == 1 %}
+            <a class="numberCircle" href="{{ "/" | relative_url }}">{{ page }}</a>
+          {% else %}
+            <a class="numberCircle" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+          {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+        {% endif %}
+      </div>
+      {% endif %}
+    </li>
   </ul>
 
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}

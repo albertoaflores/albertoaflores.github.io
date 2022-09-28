@@ -3,7 +3,7 @@ layout: post
 title: 'Starting a Project: Data Simulation'
 date: '2019-11-30 07:42:00 -05:00'
 author: alberto
-categories: Testing
+categories: Development
 tags:
 - chaos
 - spring-Boot

@@ -3,7 +3,7 @@ layout: post
 title: 'Defining the MVP'
 date: '2020-06-20 10:00:00 -04:00'
 author: alberto
-categories: Transformation
+categories: Management
 tags:
 - Agile
 - Discovery

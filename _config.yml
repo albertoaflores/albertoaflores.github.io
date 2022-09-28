@@ -27,6 +27,8 @@ plainwhite:
       url: "/reading"
     - title: Homework
       url: "/homework"
+    - title: Feed
+      url: "/feed.xml"
     - title: About me
       url: "/about"
 

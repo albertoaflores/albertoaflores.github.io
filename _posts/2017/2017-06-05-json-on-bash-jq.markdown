@@ -3,7 +3,7 @@ layout: post
 title: 'JSON on BASH: JQ'
 date: '2017-06-05 20:35:00 -04:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Bash
 - REST

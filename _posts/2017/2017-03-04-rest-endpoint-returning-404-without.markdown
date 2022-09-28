@@ -3,7 +3,7 @@ layout: post
 title: REST Endpoint returning 404 without Exceptions
 date: '2017-03-04T06:34:00.001-05:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Exceptions
 - REST

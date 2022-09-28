@@ -3,7 +3,7 @@ layout: post
 title:  "Introducing Conway's Law"
 author: alberto
 date:   2020-06-16 10:20:32 -0400
-categories: transformation
+categories: Management
 tags:
 - engineering culture
 - microservices

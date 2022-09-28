@@ -12,6 +12,12 @@ bundle exec jekyll serve
 ```
 Runs Jekyll locally with our server running on port localhost:4000
 
+Additionally, consider running this instead:
+```bash
+bundle exec jekyll serve --drafts
+```
+
+
 ### Updating
 Since we are (ideally) using bundler, we can run the following:
 

@@ -3,7 +3,7 @@ layout: post
 title: Documenting Architecture Decisions - ADR
 date: '2017-04-28 06:38:00 -04:00'
 author: alberto
-categories: development
+categories: Development
 tags:
 - Architecture
 - documentation
