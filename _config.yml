@@ -21,12 +21,12 @@ plainwhite:
   navigation:
     - title: Home
       url: "/"
-    - title: Categories
-      url: "/categories"
     - title: Reading
       url: "/reading"
     - title: Homework
       url: "/homework"
+    - title: Categories
+      url: "/categories"
     - title: Feed
       url: "/feed.xml"
     - title: About me
