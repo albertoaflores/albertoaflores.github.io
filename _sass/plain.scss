@@ -140,6 +140,25 @@ main {
   }
 }
 
+.archive-group {
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+.archive-item {  
+  h4 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+  }  
+}
+
 .pagination {
   margin-top: 20px;
   font: 8px Arial, sans-serif;
