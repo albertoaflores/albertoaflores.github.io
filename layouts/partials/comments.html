@@ -10,7 +10,7 @@
         data-emit-metadata="{{ .Site.Params.giscus.emitMetadata | default "0" }}"
         data-input-position="{{ .Site.Params.giscus.inputPosition | default "bottom" }}"
         data-theme="{{ .Site.Params.giscus.theme | default "preferred_color_scheme" }}"
-        data-lang="{{ .Site.LanguageCode | default "en" }}"
+        data-lang="{{ .Site.Params.giscus.lang | default "en" }}"
         crossorigin="anonymous"
         async>
 </script>
