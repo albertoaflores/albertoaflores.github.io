@@ -76,9 +76,9 @@ ignoreErrors = ["additional-script-loading-error"]
 [params.giscus]
   enable = true
   repo = "albertoaflores/albertoaflores.github.io"
-  repoId = ""           # Fill in from giscus.app
+  repoId = "MDEwOlJlcG9zaXRvcnkxNzg2MTU3ODk="
   category = "Announcements"
-  categoryId = ""       # Fill in from giscus.app
+  categoryId = "DIC_kwDOCqV17c4C5SVx"
   mapping = "pathname"
   reactionsEnabled = "1"
   emitMetadata = "0"
