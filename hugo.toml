@@ -1,0 +1,104 @@
+baseURL = "https://albertoaflores.github.io"
+languageCode = "en-us"
+title = "Alberto A. Flores"
+theme = "hugo-blog-awesome"
+enableRobotsTXT = true
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+[services]
+  [services.googleAnalytics]
+    id = "G-G97T1XC1WE"
+
+[menu]
+  [[menu.main]]
+    pageRef = "/"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    pageRef = "reading"
+    name = "Reading"
+    url = "/reading/"
+    weight = 30
+  [[menu.main]]
+    pageRef = "homework"
+    name = "Homework"
+    url = "/homework/"
+    weight = 40
+  [[menu.main]]
+    pageRef = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
+
+[params]
+  sitename = "Alberto A. Flores"
+  defaultColor = "dark"
+  description = "A Journal about tech stack solutions for the enterprise. Most recently, using Cloud-Native patterns, Big Data solutions and Open Source (OSS)."
+  mainSections = ["posts"]
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "Jan 2, 2006"
+
+[params.author]
+  avatar = "avatar.png"
+  intro = "Alberto A. Flores"
+  name = "Alberto A. Flores"
+  description = "Sr. Software Engineer — A Journal about tech stack solutions for the enterprise."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/albertoaflores"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/aflores"
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/albertoaflores"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@albertoaflores"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url = "/index.xml"
+
+[params.giscus]
+  enable = true
+  repo = "albertoaflores/albertoaflores.github.io"
+  repoId = ""           # Fill in from giscus.app
+  category = "Announcements"
+  categoryId = ""       # Fill in from giscus.app
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[permalinks]
+  posts = ":year/:month/:contentbasename"

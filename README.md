@@ -1,27 +1,49 @@
 # Alberto's Blog
-This blog is based on Jekyll. This can be found at:
+
+This blog is built with [Hugo](https://gohugo.io/) using the [LoveIt](https://hugoloveit.com/) theme. It can be found at:
 
 https://albertoaflores.github.io
 
-## Running locally
-Make sure you have ruby version 2.7.1. For simplicity, see the `.ruby-version` file if using
+## Running Locally
 
-Running the following:
-```bash
-bundle exec jekyll serve
-```
-Runs Jekyll locally with our server running on port localhost:4000
-
-Additionally, consider running this instead:
-```bash
-bundle exec jekyll serve --drafts
-```
-
-
-### Updating
-Since we are (ideally) using bundler, we can run the following:
+Make sure you have Hugo installed (extended version):
 
 ```bash
-bundle update
+brew install hugo
 ```
-This should update the `Gemfile.lock` which contains all dependency versions.
+
+Run the development server:
+
+```bash
+hugo server
+```
+
+To include draft posts:
+
+```bash
+hugo server -D
+```
+
+## Features
+
+- [LoveIt](https://hugoloveit.com/) theme with dark/light/auto mode
+- [Giscus](https://giscus.app/) for comments (GitHub Discussions-based)
+- [Pagefind](https://pagefind.app/) for client-side search
+- KaTeX math rendering
+- Google Analytics
+
+## Pagefind Search
+
+Pagefind indexes the built site. To test search locally:
+
+```bash
+hugo
+npx pagefind --site public
+hugo server
+```
+
+In production, Pagefind indexing runs automatically via the GitHub Actions workflow.
+
+## Deployment
+
+The site is deployed to GitHub Pages via GitHub Actions. Pushing to `master` triggers a build and deploy automatically.
