@@ -36,6 +36,11 @@ ignoreErrors = ["additional-script-loading-error"]
     name = "About"
     url = "/about/"
     weight = 50
+  [[menu.main]]
+    pageRef = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 60
 
 [params]
   sitename = "Alberto A. Flores"

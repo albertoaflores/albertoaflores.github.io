@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">{{ .Title }}</h1>
+            </header>
+            <div class="page-content">
+                <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+                <script src="/_pagefind/pagefind-ui.js"></script>
+                <div id="search"></div>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function () {
+                        new PagefindUI({
+                            element: "#search",
+                            showSubResults: true,
+                            showImages: false
+                        });
+                    });
+                </script>
+            </div>
+        </article>
+    </main>
+</div>
+{{ end }}
