@@ -1,6 +1,6 @@
 # Alberto's Blog
 
-This blog is built with [Hugo](https://gohugo.io/) using the [LoveIt](https://hugoloveit.com/) theme. It can be found at:
+This blog is built with [Hugo](https://gohugo.io/) using the [Hugo Blog Awesome](https://github.com/hugo-sid/hugo-blog-awesome) theme. It can be found at:
 
 https://albertoaflores.github.io
 
@@ -26,10 +26,9 @@ hugo server -D
 
 ## Features
 
-- [LoveIt](https://hugoloveit.com/) theme with dark/light/auto mode
+- [Hugo Blog Awesome](https://github.com/hugo-sid/hugo-blog-awesome) theme with dark/light mode
 - [Giscus](https://giscus.app/) for comments (GitHub Discussions-based)
 - [Pagefind](https://pagefind.app/) for client-side search
-- KaTeX math rendering
 - Google Analytics
 
 ## Pagefind Search

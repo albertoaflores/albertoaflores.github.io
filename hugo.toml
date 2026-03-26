@@ -27,11 +27,6 @@ ignoreErrors = ["additional-script-loading-error"]
     url = "/reading/"
     weight = 30
   [[menu.main]]
-    pageRef = "about"
-    name = "About"
-    url = "/about/"
-    weight = 50
-  [[menu.main]]
     pageRef = "search"
     name = "Search"
     url = "/search/"
